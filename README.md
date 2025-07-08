@@ -1,13 +1,135 @@
-# React + Vite
+```markdown
+# 🚀 Tech Tales - Blog Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tech Tales is a modern and responsive blog website built with **React** and **Tailwind CSS**, using **Appwrite** as the backend-as-a-service platform. It's designed for developers, tech writers, and enthusiasts who want to share or explore posts on web development, programming, and other tech-related topics.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## Expanding the ESLint configuration
+Coming soon...
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# Tech-tales" 
+---
+
+## 📸 Screenshots
+
+![Screenshot 2025-07-08 134942](https://github.com/user-attachments/assets/c3b0d399-0712-4056-83bc-d8099e3f63e9)
+
+---
+
+## 🧰 Tech Stack
+
+- **Frontend**: React, Tailwind CSS 
+- **Routing**: React Router DOM
+- **Backend**: Appwrite (Database, Storage, Authentication)
+- **Deployment**: Vercel
+
+---
+
+## 🚀 Features
+
+- 🔐 User authentication (login/signup/logout)
+- 📝 Create, edit, delete blog posts
+- 🖼 Upload and display featured images
+- 🧾 Rich HTML content rendering using `html-react-parser`
+- 📱 Responsive design for all devices
+- 🔍 Home-page search bar to filter posts
+- ⚡ Fast and modern UI
+
+---
+
+## 📁 Folder Structure
+
+```
+
+Tech-tales/
+├── public/
+├── src/
+│   ├── appwrite/       # Appwrite configuration
+│   ├── components/     # Reusable components (Navbar, Footer, PostCard, etc.)
+│   ├── pages/          # Home, Post, Create Post, Edit Post, etc.
+│   ├── context/        # Auth context provider
+│   ├── App.jsx
+│   └── main.jsx
+├── .env                # Appwrite credentials
+├── package.json
+└── README.md
+
+````
+
+---
+
+## 🛠️ Installation
+
+Follow these steps to run the project locally:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Sumitdixit2/Tech-tales.git
+cd Tech-tales
+````
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Configure environment variables
+
+Create a `.env` file in the root and add your Appwrite credentials:
+
+```env
+VITE_APPWRITE_ENDPOINT=your_appwrite_endpoint
+VITE_APPWRITE_PROJECT_ID=your_project_id
+VITE_APPWRITE_DATABASE_ID=your_database_id
+VITE_APPWRITE_BUCKET_ID=your_bucket_id
+```
+
+> Get these values from your [Appwrite Console](https://console.appwrite.io/)
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📖 How to Use
+
+* ✨ Visit the homepage to browse all blog posts
+* ✍️ Log in to create your own blog posts with a featured image
+* 🗑 Edit or delete your posts anytime
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you'd like to improve something, fix a bug, or suggest a feature:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a pull request
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+---
+
+## 📬 Contact
+
+**Sumit Dixit**
+📧 [sumitdixit00007@gmail.com](mailto:sumitdixit00007@gmail.com)
+📎 [LinkedIn](https://www.linkedin.com/in/sumit-dixit-2b1b01322/)
+📎 [GitHub](https://github.com/Sumitdixit2)
+
+---
+
+> Made with ❤️ using React and Appwrite
