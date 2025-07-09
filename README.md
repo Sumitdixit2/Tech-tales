@@ -7,7 +7,7 @@ Tech Tales is a modern and responsive blog website built with **React** and **Ta
 
 ## 🌐 Live Demo
 
-Coming soon...
+https://tech-tales-gamma.vercel.app/
 
 ---
 
